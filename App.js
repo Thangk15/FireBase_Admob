@@ -1,11 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import 'expo-dev-client'
+import Banner from './Banner';
+import InterstitialAds from './InterstitialAds';
+import RewardedAds from './RewardedAds';
+import RewardedInterstitial from './RewardedInterstitial';
 
+
+ 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      {/* <Banner/> */}
+      {/* <InterstitialAds/> */}
+      {/* <RewardedAds/> */}
+      <RewardedInterstitial/>
     </View>
   );
 }
